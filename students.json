@@ -85,6 +85,18 @@
       ],
       "email": "assd@gmaod",
       "isEnrolled": true
+    },
+    {
+      "id": "aa87",
+      "name": "Марк",
+      "age": 999,
+      "course": "аааааааа",
+      "skills": [
+        "ааааа",
+        "пппппппп"
+      ],
+      "email": "efewfsdf@gmail.com",
+      "isEnrolled": true
     }
   ]
 }
