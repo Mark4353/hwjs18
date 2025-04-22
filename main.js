@@ -5,7 +5,6 @@ function getStudents() {
     .catch((error) => console.error("Помилка завантаження", error));
 }
 
-
 function renderStudents(students) {
   const tableBody = document.querySelector("#students-table tbody");
   tableBody.innerHTML = "";
