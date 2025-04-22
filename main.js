@@ -1,9 +1,8 @@
-
 function getStudents() {
   fetch("http://localhost:5500/students")
     .then((response) => response.json())
     .then((data) => renderStudents(data))
-    .catch((error) => console.error("Помилка завантаження студентів:", error));
+    .catch((error) => console.error("Помилка завантаження", error));
 }
 
 
