@@ -1,4 +1,4 @@
-// Функція для отримання всіх студентів
+
 function getStudents() {
   fetch("http://localhost:5500/students")
     .then((response) => response.json())
@@ -6,7 +6,7 @@ function getStudents() {
     .catch((error) => console.error("Помилка завантаження студентів:", error));
 }
 
-// Функція для відображення студентів у таблиці
+
 function renderStudents(students) {
   const tableBody = document.querySelector("#students-table tbody");
   tableBody.innerHTML = "";
@@ -29,7 +29,6 @@ function renderStudents(students) {
   });
 }
 
-// Функція для додавання нового студента
 function addStudent(e) {
   e.preventDefault();
   const student = {
@@ -53,7 +52,7 @@ function addStudent(e) {
     .catch((error) => console.error("Помилка", error));
 }
 
-// Функція для оновлення студента
+
 function updateStudent(id) {
   const newName = prompt("Введіть нове імя студента:");
   if (newName) {
@@ -67,7 +66,6 @@ function updateStudent(id) {
   }
 }
 
-// Функція для видалення студента
 function deleteStudent(id) {
   if (confirm("видалити?")) {
     fetch(`http://localhost:3000/students/${id}`, {
@@ -78,7 +76,6 @@ function deleteStudent(id) {
   }
 }
 
-// Обробники подій
 document
   .getElementById("get-students-btn")
   .addEventListener("click", getStudents);
