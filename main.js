@@ -4,7 +4,7 @@ async function getStudents() {
     const data = await response.json();
     renderStudents(data);
   } catch (error) {
-    console.error("Помилка:", error);
+    console.error("Помилка:", error);   
   }
 }
 function renderStudents(students) {
@@ -35,7 +35,7 @@ async function addStudent(e) {
     name: document.getElementById("name").value,
     age: parseInt(document.getElementById("age").value),
     course: document.getElementById("course").value,
-    skills: document
+    skills: document 
       .getElementById("skills")
       .value.split(",")
       .map((skill) => skill.trim()),

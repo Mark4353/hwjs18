@@ -19,8 +19,8 @@
     "deploy": "gh-pages -d build",
     "prederloy": "npm run build",
     "deploys": "gh-pages-deploy",
-    "data":"json-server --watch students.json --port 3000",
-    "localhostIp":"http-server -p 5500" 
+    "dataStart":"json-server --watch students.json --port 3000",
+    "localhostStart":"http-server -p 3000"
 
   },
   "devDependencies": {
