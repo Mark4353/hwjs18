@@ -1,8 +1,10 @@
+Щоб все працювало треба спочатку запустити сайт "npm run serverStart"
+далі не закриваючи вкладку у браузері перейти до термінала нажміть Ctrl + C и напишіть "npm run dataStart" и після цього поверніться на сайт и все буде працювати
 
 http://localhost:3000/students  данні
-json-server --watch students.json --port 3000
-
 
 http://localhost:3000/index.html  сайт
-npm install -g http-server
-http-server -p 3000
+
+npm run serverStart
+
+json-server --watch students.json --port 3000

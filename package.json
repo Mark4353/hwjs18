@@ -2,7 +2,7 @@
   "name": "hwjs18",
   "version": "1.0.0",
   "description": "",
-  "homepage": "https://github.com/Mark4353/hwjs18#readme",
+  "homepage": "https://mark4353.github.io/hwjs18/",
   "bugs": {
     "url": "https://github.com/Mark4353/hwjs18/issues"
   },
@@ -20,7 +20,7 @@
     "prederloy": "npm run build",
     "deploys": "gh-pages-deploy",
     "dataStart":"json-server --watch students.json --port 3000",
-    "localhostStart":"http-server -p 3000"
+    "serverStart":"http-server -p 3000"
 
   },
   "devDependencies": {

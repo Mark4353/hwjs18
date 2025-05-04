@@ -15,7 +15,7 @@
     },
     {
       "id": "2",
-      "name": "Olha Kovalenko",
+      "name": "dfefwsdfsfsd",
       "age": 16,
       "course": "Game Development",
       "skills": [
@@ -24,6 +24,19 @@
       ],
       "email": "olha.kovalenko@example.com",
       "isEnrolled": true
+    },
+    {
+      "id": "3",
+      "name": "Dmytro Shevchenko",
+      "age": 14,
+      "course": "Mobile App Development",
+      "skills": [
+        "Java",
+        "Kotlin",
+        "Android Studio"
+      ],
+      "email": "dmytro.shevchenko@example.com",
+      "isEnrolled": false
     },
     {
       "id": "3",
@@ -71,6 +84,18 @@
         "fasdfasdf"
       ],
       "email": "assd@gmaod",
+      "isEnrolled": true
+    },
+    {
+      "id": "2d70",
+      "name": "Mark",
+      "age": 22,
+      "course": "3gdrfgdsg",
+      "skills": [
+        "dfsgsedrgsed",
+        "wgrwrg"
+      ],
+      "email": "efewfsdf@gmail.com",
       "isEnrolled": true
     }
   ]
